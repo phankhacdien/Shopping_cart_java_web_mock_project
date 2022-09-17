@@ -1,0 +1,75 @@
+[10:19 AM] Vu Van Tien (FWA.AT)
+
+I. Các steps để lên plan
+
+Step 1: Liệt kê các việc cần làm Code
+Code middleware
++ study ( 2h )
+	- task 1: 70%
+	- task 2: 20%
+	- task 3: 10%
+code controllers
+...
+Test
+	Test Rest API login
+	Test Rest API Register
+Design
+	Design DB: both
+	Design Rest API
+
+Step 2: Estimate duration, effort cho từng công việc
+Design
+	Design DB: 8h
+	Design User- db:4
+	Design product- db:2
+	Design Rest API: 18h 
+
+Step 3: Sắp xếp thứ tự ưu tiên các task
+	Ví dụ: Design -> Code -> Test. 
+
+Step 4: Assign PICNote:
++ Mỗi members trong 1 ngày đều phải có task, tổng effort ~8h
++ Mỗi task chỉ dc Assign tới 1 người trong 1 thời điểm. Nếu bắt buộc phải assign task cho nhiều hơn 1 thì phải tách nhỏ task ra.
+
+ví dụ: Có task "Design DB" task này yêu cầu 2 bạn trọng team làm. => Không thể assign tên 2 bạn vào task này đc.
+Cho nên phải tiến hành tách task ra làm 2 ứng với 2 bạn làm, ví dụ tách như sau ( việc tách phải phù hợp với thực tế và năng lực của mỗi member )
+Design DB
+	Design Users DB ( tất cả các table liên quan tới users ): PIC member A
+	Design Product DB ( tất cả table liên quan tới products ): PIC member BII. Daily meeting & Daily Report
+
+1. Daily meeting
+* Yêu cầu 1 : Sáng (hoặc bất cứ thời điểm nào, nhưng phải cố định) team phải meeting 15p để trao đổi tiến độ của dự án.
+Các việc tập trung trao đổi:
+- Team review lại Schedule, điều chỉnh schedule cho phù hợp ( task nào cần thêm ngày, task cần giảm effort, điều chỉnh assign,... )
+- List up các issue mà team gặp phải hôm trc. => nói ngắn gọn là gặp vấn đề gì, solution để xử lý ra sao
+- List up các issue có thể có trong ngày hôm nay. ( ví dụ: hôm nay làm phần security, nhưng pic chưa có knowhow => có thể sẽ phải mất time tìm hiểu. )
+* Yêu cầu 2: Trong meeting, ae thay phiên nhau viết MM ( meeting minutes ), ví dụ hôm qua member A viết thì hôm nay member B sẽ viết
+MM bắt buộc phải post trong group team. => Nếu team ko post thì mặc định coi như team đó ko thực hiện daily meeting
+
+2. Daily report
+Mục đích:
+	- Report lại tình trạng dự án bao gồm: Các công việc của từng members trong ngày và dự định trong ngày tiếp theo
+	- Liệt kê tất cả issue & solution mà team gặp trong ngày.
+Format:
+-----------------------------------------------
+Today Task:
+Task 1: Tên Task: Member A: 10%
+Task 2: Tên Task: Member B: 10%
+
+Next Task:
+Task 1: Tên Task: Member A: 40%
+Task 2: Tên Task: Member B: 69%
+
+Issue ( nếu có )
+- Issue 1
+-> Solution
+-------------------------------------------------
+
+To: tienvv
+cc: all members trong team group
+daily: 17h
+subject: [Java_2022_3_1][TeamX] daily report mm/dd/yyyy
+Note: đúng 17h hàng ngày team phải gửi mail, kể cả team có thực hiện OT hay ko.
+
+[10:23 AM] 
+
